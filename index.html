@@ -8,7 +8,7 @@ Requirements
 Select ONE Additional Feature to Add  
 [ no ] Feature 1 - Include Border Radius CSS Property 
 [ no ] Feature 2 - Include a Static Background Image
-[ no ] Feature 3 - Include An Animated Background Color Change
+[ yes ] Feature 3 - Include An Animated Background Color Change
 [ no ] Feature 4 - Embed YouTube Video 
 [ no ] Feature 5 - Include Border CSS Property 
 -->
@@ -19,11 +19,18 @@ Select ONE Additional Feature to Add
         <meta charset="utf-8">
         <title>Unit 2 Project</title>
         <style>
-            
+            body, html {
+                animation: colorchange 3s infinite 
+                alternate;
+            }
+            @keyframes colorchange{
+                0%{background-color: rgb(177, 56, 56);}
+                100%{background-color: rgb(66, 111, 194);}
+            }
         </style>
     </head>
     <body>
-
+        <h1> Why the hell you should visit the post office 📮📫</h1>
         
     </body>
 </html>
