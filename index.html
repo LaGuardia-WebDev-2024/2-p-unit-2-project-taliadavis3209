@@ -16,49 +16,15 @@ Select ONE Additional Feature to Add
 <!DOCTYPE HTML>
 <html>
     <head>
-        <meta charset="utf-8">
         <title>Unit 2 Project</title>
         <style>
             /* Element Selectors */
             body, html {
                 animation: colorchange 3s infinite alternate;
-                font-family: 'Comic Sans MS', cursive, sans-serif;
             }
             h2 {
                 color: #fffbe7;
                 background: #3a3a3a;
-                padding: 0.5em;
-                border-radius: 10px;
-            }
-            /* ID Selectors */
-            #pamphlet-title {
-                color: #e63946;
-                text-shadow: 2px 2px #fffbe7;
-            }
-            #pamphlet-footer {
-                font-size: 1.2em;
-                color: #222;
-                background: #f1faee;
-                border-radius: 8px;
-                margin-top: 1em;
-                padding: 0.5em;
-                text-align: center;
-            }
-            /* Class Selectors */
-            .pamphlet-section {
-                background: rgba(255,255,255,0.8);
-                margin: 1em 0;
-                padding: 1em;
-                border-radius: 12px;
-                box-shadow: 2px 2px 8px #2222;
-            }
-            .pamphlet-image {
-                width: 180px;
-                height: 120px;
-                object-fit: cover;
-                border-radius: 10px;
-                margin: 0.5em;
-                border: 3px solid #e63946;
             }
             @keyframes colorchange{
                 0%{background-color: rgb(177, 56, 56);}
@@ -67,13 +33,10 @@ Select ONE Additional Feature to Add
         </style>
     </head>
     <body>
-        <section class="pamphlet-section">
-            <h1 id="pamphlet-title">Why Your Next Vacation Spot Should Be... The Post Office! 📮</h1>
-            <div style="display: flex; justify-content: center; gap: 1em; flex-wrap: wrap;">
-                <img src="https://postoffice.mtsu.edu/wp-content/uploads/sites/12/2024/11/15a50328-2531-459c-911a-224f674bf99b-scaled.jpg" alt="Epic post office building" class="pamphlet-image">
-                <img src="https://oswaldspharmacy.com/wp-content/uploads/2019/04/wil-post-blog-4.19-featured.jpg" alt="Tourist mailing a postcard" class="pamphlet-image">
-                <img src="https://www.villages-news.com/wp-content/uploads/2018/12/Long-lines-at-Lady-Lake-Post-Office-1-600x450.jpg" alt="Locals hanging at the post office" class="pamphlet-image">
-            </div>
+            <h1>Why Your Next Vacation Spot Should Be... The Post Office! 📮 </h1>
+                <img src="https://postoffice.mtsu.edu/wp-content/uploads/sites/12/2024/11/15a50328-2531-459c-911a-224f674bf99b-scaled.jpg" alt="Epic post office building" width="300">
+                <img src="https://oswaldspharmacy.com/wp-content/uploads/2019/04/wil-post-blog-4.19-featured.jpg" alt="Tourist mailing a postcard" width="300">
+                <img src="https://www.villages-news.com/wp-content/uploads/2018/12/Long-lines-at-Lady-Lake-Post-Office-1-600x450.jpg" alt="Locals hanging at the post office" width="300">
             <h2>Top Reasons to Book Your Trip Yesterday:</h2>
             <ul>
                 <li><strong>Stamp Collecting:</strong> The only place where collecting tiny stickers is considered classy.</li>
@@ -88,10 +51,7 @@ Select ONE Additional Feature to Add
                 <li>Marvel at the ancient art of handwriting addresses.</li>
                 <li>Enjoy the world’s slowest rollercoaster: the forever unmoving line!</li>
             </ul>
-            <div id="pamphlet-footer">
                 <strong>Book your trip to the post office today!*</strong><br>
                 <small>*No passport required. Just bring your sense of humor and maybe a pen.</small>
-            </div>
-        </section>
     </body>
 </html>
